@@ -9,7 +9,7 @@ class Heading extends Component{
                 </div>
 
                 <form>
-                    <input type="text" placeholder='search' value='search'/>
+                    <input type="text" placeholder='search' value='search' onChange={()=> console.log()}/>
                 </form>
             </div>
         )
