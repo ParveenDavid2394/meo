@@ -38,7 +38,7 @@ class PersonDetail extends Component{
                                 </div>
 
                                 <div>
-                                    <PersonDetailAlbum photos={p.album} name={p.name}/>
+                                    <PersonDetailAlbum photos={p.albums} name={p.name}/>
                                 </div>
 
                             </div>
