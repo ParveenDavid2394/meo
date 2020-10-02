@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
 import {personDetail} from '../action/index'
+import PersonDetailAlbum from './PersonDetailAlbum'
 
 class PersonDetail extends Component{
 
@@ -35,6 +36,11 @@ class PersonDetail extends Component{
                                         </div>
                                     </div>
                                 </div>
+
+                                <div>
+                                    <PersonDetailAlbum photos={p.album} name={p.name}/>
+                                </div>
+
                             </div>
                         )
                     })
